@@ -1,1 +1,6 @@
-console.log('hola mundo');
+//Funciones en JS
+function saludar(nombre) {
+    return `Hola, ${nombre}`;
+}
+
+console.log(saludar('Guts'));
