@@ -1,7 +1,8 @@
-import React from "react";
 import { createRoot } from "react-dom/client";
+import PrimeraApp from "./PrimeraApp";
+import './index.css';
+import CounterApp from "./CounterApp";
 
-const saludo = <h1>Hola mundo</h1>;
 const divRoot = createRoot(document.getElementById('root'));
 
-divRoot.render(saludo);
+divRoot.render(<CounterApp value={0} />);
